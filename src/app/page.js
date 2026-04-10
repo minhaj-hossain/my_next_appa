@@ -105,6 +105,13 @@ const aiTechData = [
   },
 ];
 
+
+export const metadata = {
+  title: 'Ai data',
+  description: 'Effective Ai from nawadays',
+}
+
+
 export default function Home() {
 
   console.log()
