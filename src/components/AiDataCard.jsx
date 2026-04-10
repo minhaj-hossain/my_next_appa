@@ -4,13 +4,8 @@ import React from 'react';
 
 const AiDataCard = ({ techData }) => {
 
-    const { id, image,
-        company, description, category, year, name
+    const { id, company, description, category, year, name
     } = techData;
-
-
-
-
 
     return (
         <div>
