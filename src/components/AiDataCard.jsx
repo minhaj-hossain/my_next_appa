@@ -4,7 +4,7 @@ import React from 'react';
 
 const AiDataCard = ({ techData }) => {
 
-    const { id, company, description, category, year, name
+    const { id, image, company, description, category, year, name
     } = techData;
 
     return (
@@ -12,13 +12,13 @@ const AiDataCard = ({ techData }) => {
             <div className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
                 {/* Image */}
                 <div className="h-48 overflow-hidden">
-                    {/* <Image
+                    <Image
                         src={image}
                         alt={name}
-                        width={300}
-                        height={300}
+                        width={100}
+                        height={100}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    /> */}
+                    />
                 </div>
 
                 {/* Content */}
